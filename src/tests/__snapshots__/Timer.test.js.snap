@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when counting down each second 1`] = `
+<div
+  style={
+    Object {
+      "fontSize": "24px",
+    }
+  }
+>
+  <svg
+    className="timer"
+    height="100"
+    style={
+      Object {
+        "transform": "scaleX(-1)",
+      }
+    }
+    viewBox="0 0 100 100"
+    width="100"
+  >
+    <g>
+      <circle
+        cx="50"
+        cy="50"
+        fill="none"
+        r="45"
+        stroke="#333"
+        strokeWidth="9px"
+      />
+      <text
+        fill="black"
+        style={
+          Object {
+            "transform": "scaleX(-1)",
+            "transformOrigin": "center",
+          }
+        }
+        x={42}
+        y="60"
+      >
+        9
+      </text>
+      <path
+        d="M 50, 50 m -45, 0 a 45,45 0 1,0 90,0 a 45,45 0 1,0 -90,0"
+        fill="none"
+        id="base-timer-path-remaining"
+        stroke="#21ada8"
+        strokeDasharray="254.70000000000002 283"
+        strokeWidth="9px"
+        style={
+          Object {
+            "transform": "rotate(90deg)",
+            "transformOrigin": "center",
+          }
+        }
+      />
+    </g>
+  </svg>
+</div>
+`;
+
+exports[`renders correctly when counting down each second 2`] = `
+<div
+  style={
+    Object {
+      "fontSize": "24px",
+    }
+  }
+>
+  <svg
+    className="timer"
+    height="100"
+    style={
+      Object {
+        "transform": "scaleX(-1)",
+      }
+    }
+    viewBox="0 0 100 100"
+    width="100"
+  >
+    <g>
+      <circle
+        cx="50"
+        cy="50"
+        fill="none"
+        r="45"
+        stroke="#333"
+        strokeWidth="9px"
+      />
+      <text
+        fill="black"
+        style={
+          Object {
+            "transform": "scaleX(-1)",
+            "transformOrigin": "center",
+          }
+        }
+        x={42}
+        y="60"
+      >
+        8
+      </text>
+      <path
+        d="M 50, 50 m -45, 0 a 45,45 0 1,0 90,0 a 45,45 0 1,0 -90,0"
+        fill="none"
+        id="base-timer-path-remaining"
+        stroke="#21ada8"
+        strokeDasharray="226.4 283"
+        strokeWidth="9px"
+        style={
+          Object {
+            "transform": "rotate(90deg)",
+            "transformOrigin": "center",
+          }
+        }
+      />
+    </g>
+  </svg>
+</div>
+`;
