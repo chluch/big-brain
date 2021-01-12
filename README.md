@@ -1,5 +1,5 @@
 # Big Brain
-Assignment for UNSW - Creating the frontend for a Kahoot copycat.\
+Assignment for UNSW - Creating the frontend for a Kahoot copycat.
 
 ## Objectives:
 * Produce a responsive, interactive and accessible web app with React (Backend provided)
